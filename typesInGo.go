@@ -3,19 +3,19 @@ package main
 import "fmt"
 
 // Variables declaration
-const caption = "The following is the account information."
-const firstName = "Luke"
-const lastName = "Skywalker"
-const ageInYears = 20
+const caption string = "The following is the account information."
+const firstName string = "Luke"
+const lastName string = "Skywalker"
+const ageInYears int8 = 20
 
-var weightInKg = 73.0
-var heightInM = 1.72
-var remainingCreditsInDollars = 123.55
+var weightInKg float32 = 73.0
+var heightInM float32 = 1.72
+var remainingCreditsInDollars float64 = 123.55
 
-const accountName = "admin"
+const accountName string = "admin"
 
-var accountPassword = "password"
-var isSubscribed = true
+var accountPassword string = "password"
+var isSubscribed bool = true
 
 func tellMeTypes() {
 	// print out the variable values and data types
